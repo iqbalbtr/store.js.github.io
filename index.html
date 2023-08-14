@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oxchat Store</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+
+<body>
+  <div class="cart-blok">
+    <div class="logo-cart">
+      <i class="uil uil-times cartP"></i>
+      <span class="cart-text">Keranjang</span>
+    </div>
+    <div class="cart-container">
+      <div class="cart-list">
+
+      </div>
+    </div>
+    <div class="total-blok">
+      <span>Total :<span id="total"></span></span>
+      <button class="buy-all">Buy All</button>
+    </div>
+  </div>
+
+  <section class="create-blok">
+    <div class="swipe-box">
+      <div class="blok-acount" id="t1">
+        <i class="uil uil-times close-acount"></i>
+        <span>Daftar Akun</span>
+        <div class="bottom-login">
+          <div class="custom-file">
+            <label for="profile">Foto Profile</label>
+            <input type="file" id="profile" class="imgProfile kon" accept=".png, .jpg, .jpeg">
+          </div>
+          <label for="nameP">Nama: </label>
+          <input type="text" class="name-user">
+          <label for="User">Username</label>
+          <input type="text" name="User" class="user">
+          <label for="password">password</label>
+          <input type="password" class="password">
+        </div>
+        <p>Sudah puny akun?<a href="#t2"> Masuk</a></p>
+        <button class="btn-create" id="huk08">Daftar</button>
+      </div>
+
+      <div class="blok-acount" id="t2">
+        <i class="uil uil-times close-acount"></i>
+        <span>Login</span>
+        <div class="bottom-login">
+          <label for="user-log">Username :</label>
+          <input type="text" name="user-log" class="user-log">
+          <label for="pass-log">password :</label>
+          <input type="password" name="pass-log" class="pass-log">
+        </div>
+        <p>Belum punya akun?<a href="#t1"> Daftar</a></p>
+        <button class="log-sub">Masuk</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="add-product-container">
+    <div class="blok-add-product">
+      <i class="uil uil-times close-add"></i>
+      <div class="profile-blok">
+        <div class="profile-info">
+          <img src="" class="user-poto" alt="">
+          <div class="info-right">
+            <span id="name-profile"></span>
+            <span id="username-profile"></span>
+            <button class="log-out">Log out</button>
+          </div>
+        </div>
+        <div class="tambah-produk">
+          <div class="top-add">
+            <h2>Tambahkan Product</h2>
+          </div>
+          <div class="blok-add">
+            <div class="add-blok">
+              <label for="name">Name Produk :</label>
+              <input type="text" name="name" placeholder="Nama product" id="input" class="nama">
+            </div>
+            <div class="add-blok">
+              <label for="harga">Harga :</label>
+              <input type="number" name="harga" placeholder="Harga Product" id="input2"class="harga">
+            </div>
+            <div class="description">
+              <label for="descibtion">Descripsi :</label>
+              <textarea name="descibtion" class="descibtion" id="input3" rows="4"></textarea>
+            </div>
+            <div class="add-stok">
+              <label for="stok">Stock :</label>
+              <input type="number" name="stok" placeholder="Stock" id="input4" class="stok">
+            </div>
+            <input type="file" placeholder="Masukan file" class="input-file" accept=".png, .jpg, .jpeg">
+            <div class="kont">
+              <button class="submit">Masukan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="header">
+    <div class="shop-name">
+      <i class="uil uil-shopping-bag"></i>
+      <span class="logo-name">Project Store</span>
+    </div>
+    <div class="sidebar">
+      <span class="name-sidebar"></span>
+      <a href="#t1" class="acount-add"><button class="member">Daftar</button></a>
+      <a href="#t2" class="acount-add"><button class="login">Masuk</button></a>
+      <i class="uil uil-user-circle btn-tambah"></i>
+      <img src="" alt="" class="user-profile acount-tambah">
+    </div>
+
+  </div>
+  <div class="list-product">
+    <div class="blok-search">
+      <span>Daftar Produk</span>
+      <div class="input-seacrh">
+        <input type="text" id="search">
+        <i class="uil uil-search search"></i>
+      </div>
+    </div>
+    <div class="list-right">
+      <i class="uil uil-sun btn-mode sun-mode"></i>
+      <i class="uil uil-moon btn-mode dark-mode"></i>
+      <i class="uil uil-shopping-cart cart cartP"></i>
+    </div>
+  </div>
+
+  <div class="hero">
+    <div class="blok-no-product">
+      <span id="no-product">Produk Tidak di temukan</span>
+    </div>
+    <div class="container">
+    </div>
+    <div class="priview-product">
+      <div class="priview-container">
+        <img id="img-product" alt="">
+        <div class="priview-block">
+          <h2><span id="product-name"></span></h2>
+          <div class="botom-priview">
+            <h4><span id="product-harga"></span></h4>
+            <p><span id="deskti"></span></p>
+            <h5> Stock : <span id="product-stock"></span> </h5>
+            <div class="button-product">
+            </div>
+          </div>
+        </div>
+        <i class="uil uil-times close"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom">
+    <div class="text-bottom">
+      <span>© 2023 MADE BY BAAL WITH LOVE</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
