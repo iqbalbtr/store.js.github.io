@@ -19,7 +19,8 @@ akun bawaan :
 - iqbalbtr045(username)
 - iqbal045(password)
 
-link priview: https://github.com/liynx45/simplestoreproject.github.io.git
+link priview: https: https://liynx45.github.io/simplestoreproject.github.io/
+bug? nyalakan situs deskop mode di android
 
 tambahkan lewat daftar akun panel jika ingin menambahkan akun baru*
 
