@@ -1,27 +1,3 @@
-Changelog :
-
--full html css js build
--iconscout untuk icon
--local host
--add Product Panel
--cart system
--cart Panel
--acount system
--login panel
--daftar akun panel
--dark mode
--ui fix bug
--Enter Input sistem
--panel priview product
-
-notes:
-akun bawaan : 
-- iqbalbtr045(username)
-- iqbal045(password)
-
-link priview: https: https://liynx45.github.io/simplestoreproject.github.io/
-bug? nyalakan situs deskop mode di android
-
-tambahkan lewat daftar akun panel jika ingin menambahkan akun baru*
+link https://liynx45.github.io/simplestoreproject.github.io/
 
  
